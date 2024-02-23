@@ -1,0 +1,23 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "hugo-installer --version otherDependencies.hugo",
+    "build": "exec-bin bin/hugo/hugo",
+    "server": "exec-bin bin/hugo/hugo server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hugo-installer": "^4.0.1"
+  },
+  "otherDependencies": {
+    "hugo": "0.123.2"
+  },
+  "dependencies": {
+    "exec-bin": "^1.0.0"
+  }
+}
