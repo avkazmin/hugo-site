@@ -1,0 +1,46 @@
+services:
+  - pageRef: /id
+  - pageRef: /mail
+  - pageRef: /cloud_web
+  - pageRef: /touchmail
+  - pageRef: /calendar-help
+  - pageRef: /app_android
+  - pageRef: /app_ios
+  - pageRef: /disko
+  - pageRef: /todo
+  - pageRef: /test-notes
+  - pageRef: /notes
+  - pageRef: /calls
+  - name: VK Почта
+    weight: 111
+    params:
+      icon: /cdn/img/project-icon/vkmail.svg
+    url: https://help.vk.mail.ru/
+  - pageRef: /developers
+  - name: Рейтинг
+    weight: 141
+    params:
+      icon: /cdn/img/project-icon/top.png
+    url: https://top.mail.ru/help/ru/
+  - pageRef: /otvety-help
+  - pageRef: /my-help
+
+footer:
+  - name: Mail.ru
+    url: https://r.mail.ru/n154506914?sz=36&rnd=230917203
+    weight: 10
+  - name: О компании
+    url: https://r.mail.ru/n382470674?sz=36&rnd=206484244
+    weight: 20
+  - name: Реклама
+    url: https://r.mail.ru/n309433544?sz=36&rnd=230917203
+    weight: 30
+  - name: Вакансии
+    url: https://r.mail.ru/n382470675?sz=36&rnd=206484244
+    weight: 40
+  - name: Юридические документы
+    url: https://help.mail.ru/legal/terms/mail
+    weight: 45
+  - name: Сообщить об уязвимости
+    url: https://bb.standoff365.com/vendors/vk
+    weight: 50
