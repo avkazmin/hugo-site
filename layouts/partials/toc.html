@@ -1,0 +1,15 @@
+{{/* Table of Contents */}}
+{{- $toc := .Params.toc | default true -}}
+{{- $onThisPage := (T "onThisPage") | default "On this page"}}
+
+<nav class="hextra-toc hx-order-last hx-hidden hx-w-64 hx-shrink-0 xl:hx-block print:hx-hidden hx-px-4"
+     aria-label="table of contents">
+    {{- if $toc }}
+        <div class="hextra-scrollbar hx-sticky hx-top-16 hx-overflow-y-auto hx-pr-4 hx-pt-6 hx-text-sm [hyphens:auto] hx-max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] ltr:hx--mr-4 rtl:hx--ml-4">
+            {{if gt (.TableOfContents | len) 32 }}
+                <p class="hx-mb-4 hx-font-semibold hx-tracking-tight">{{ $onThisPage }}</p>
+                {{ .TableOfContents }}
+            {{end}}
+        </div>
+    {{ end -}}
+</nav>
