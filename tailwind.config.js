@@ -10,7 +10,7 @@ const makePrimaryColor =
         }
 
 module.exports = {
-    prefix: 'hx-',
+    // prefix: 'hx-',
     darkMode: ['class', 'html[class~="dark"]'],
     content: [
         './hugo_stats.json',

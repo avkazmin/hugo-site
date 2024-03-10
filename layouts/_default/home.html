@@ -1,9 +1,9 @@
 {{ define "main" }}
-  <div class='hx-mx-auto hx-flex hx-max-w-screen-xl'>
+  <div class='mx-auto flex max-w-screen-xl'>
     {{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
-    <div class="hx-w-full hx-break-words hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-pb-8 hx-pt-8 md:hx-pt-12 hx-pl-[max(env(safe-area-inset-left),1.5rem)] hx-pr-[max(env(safe-area-inset-left),1.5rem)]
-hx-items-center hx-justify-center hx-flex">
-{{/*      <div class="hx-flex hx-flex-col hx-items-start">*/}}
+    <div class="w-full break-words min-h-[calc(100vh-var(--navbar-height))] min-w-0 pb-8 pt-8 md:pt-12 pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-left),1.5rem)]
+items-center justify-center flex">
+{{/*      <div class="flex flex-col items-start">*/}}
         {{ .Content }}
 {{/*      </div>*/}}
     </div>

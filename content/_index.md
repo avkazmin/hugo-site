@@ -4,4 +4,4 @@ layout: hextra-home
 ---
 
 
-<div class="hx-text-6xl hx-pb-24">Welcome!</div>
+<div class="text-6xl pb-24">Welcome!</div>
