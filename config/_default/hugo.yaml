@@ -7,6 +7,13 @@ title: My New Hugo Site
 #  imports:
 #    - path: github.com/imfing/hextra
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
 module:
   mounts:
     - source: assets

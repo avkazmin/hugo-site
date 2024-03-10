@@ -1,9 +1,17 @@
-+++
-title = 'Home'
-date = 2023-01-01T08:00:00-07:00
-draft = false
-+++
+---
+title: Hextra Theme
+layout: hextra-home
+---
 
-Laborum voluptate pariatur ex culpa magna nostrud est incididunt fugiat
-pariatur do dolor ipsum enim. Consequat tempor do dolor eu. Non id id anim anim
-excepteur excepteur pariatur nostrud qui irure ullamco.
+
+<div class="hx-mt-6 hx-mb-6">
+  Build modern websites&nbsp;<br class="sm:hx-block hx-hidden" />with Markdown and Hugo
+</div>
+
+
+
+<div class="hx-mb-12">
+  Fast, batteries-included Hugo theme&nbsp;<br class="sm:hx-block hx-hidden" />for creating beautiful static websites
+</div>
+
+
