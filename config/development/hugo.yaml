@@ -1,8 +1,1 @@
-baseURL: 'https://dev-mailhelp-uploads.mrgcdn.ru/'
 
-#module:
-#  mounts:
-#    - source: hugo_stats.json
-#      target: assets/watching/hugo_stats.json
-#    - source: themes/help.mail.ru/contentExample
-#      target: content

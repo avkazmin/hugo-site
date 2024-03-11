@@ -1,6 +1,6 @@
 ---
 title: Guide
-weight: 2
+weight: 20
 prev: /docs/getting-started
 next: /docs/guide/organize-files
 sidebar:
