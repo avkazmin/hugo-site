@@ -15,7 +15,7 @@ A built-in component to show important information to the reader.
 ### Default
 
 ```markdown
-{{</* callout emoji="🌐" */>}}
+{{</* callout */>}}
   Hugo can be used to create a wide variety of websites, including blogs, portfolios, documentation sites, and more.
 {{</* /callout */>}}
 ```

@@ -1,4 +1,4 @@
-Команды для запуска:
+Порядок действий:
 
 1. Проверка установки git
 ```
@@ -64,4 +64,24 @@ Test content.
     </li>
   {{end}}
 </ul>
+```
+
+11. Shortcode callout
+- создать файл `layouts/shortcodes/callout.html`
+
+```
+{{ $type := .Get "type" | default "default" }}
+
+<div class="callout {{ $type }}">
+      {{ .Inner | markdownify }}
+</div>
+```
+
+12. Использование callout
+- добавить в `content/docs/guide/shortcodes/callout.md`
+
+```
+{{< callout type="info" >}}
+Please visit GitHub to see the latest releases.
+{{< /callout >}}
 ```
