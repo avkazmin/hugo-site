@@ -1,4 +1,24 @@
-Порядок действий:
+## Полезные ссылки
+
+Инструменты:
+* Git https://git-scm.com/downloads
+* Node.js https://nodejs.org/en/download
+* VSCode https://code.visualstudio.com/download
+
+Дока Hugo:
+* Контент https://gohugo.io/content-management/organization/#organization-of-content-source
+* Конфигурация https://gohugo.io/getting-started/configuration/
+* Меню https://gohugo.io/methods/site/menus/
+* Шаблоны https://gohugo.io/templates/introduction/
+* Shortcode https://gohugo.io/content-management/shortcodes/
+
+Темы Hugo:
+* Все темы для документации https://themes.gohugo.io/tags/docs/
+* Hextra https://imfing.github.io/hextra/docs/getting-started/
+* Lotus Docs https://lotusdocs.dev/docs/
+
+
+## Порядок действий
 
 1. Проверка установки git
 ```
@@ -86,24 +106,4 @@ Please visit GitHub to see the latest releases.
 {{< /callout >}}
 ```
 
-
-
-## Полезные ссылки
-
-Инструменты:
-* Git https://git-scm.com/downloads
-* Node.js https://nodejs.org/en/download
-* VSCode https://code.visualstudio.com/download
-
-Дока Hugo:
-* Контент https://gohugo.io/content-management/organization/#organization-of-content-source
-* Конфигурация https://gohugo.io/getting-started/configuration/
-* Меню https://gohugo.io/methods/site/menus/
-* Шаблоны https://gohugo.io/templates/introduction/
-* Shortcode https://gohugo.io/content-management/shortcodes/
-
-Темы Hugo:
-* Все темы для документации https://themes.gohugo.io/tags/docs/
-* Hextra https://imfing.github.io/hextra/docs/getting-started/
-* Lotus Docs https://lotusdocs.dev/docs/
 
