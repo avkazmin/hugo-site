@@ -1,22 +1,7 @@
-## Полезные ссылки
-
-Инструменты:
-* Git https://git-scm.com/downloads
-* Node.js https://nodejs.org/en/download
-* VSCode https://code.visualstudio.com/download
-
-Дока Hugo:
-* Контент https://gohugo.io/content-management/organization/#organization-of-content-source
-* Конфигурация https://gohugo.io/getting-started/configuration/
-* Меню https://gohugo.io/methods/site/menus/
-* Шаблоны https://gohugo.io/templates/introduction/
-* Shortcode https://gohugo.io/content-management/shortcodes/
-
-Темы Hugo:
-* Все темы для документации https://themes.gohugo.io/tags/docs/
-* Hextra https://imfing.github.io/hextra/docs/getting-started/
-* Lotus Docs https://lotusdocs.dev/docs/
-
+## Инструменты
+- Git https://git-scm.com/downloads
+- Node.js https://nodejs.org/en/download
+- VSCode https://code.visualstudio.com/download
 
 ## Порядок действий
 
@@ -58,13 +43,23 @@ http://localhost:1313/
 ```
 ---
 title: New Article
+---
+
+Test content.
+```
+
+9. добавить новую страницу
+- создать файл `content/docs/new-article.md`
+```
+---
+title: New Article
 weight: 1
 ---
 
 Test content.
 ```
 
-9. Добавить пункт меню
+10. Добавить пункт меню
 - добавить в файл `config/_default/menus.yaml`
 ```
   - name: Example
@@ -72,7 +67,7 @@ Test content.
     weight: 6
 ```
 
-10. Шаблон - добавить листинг статей
+11. Шаблон - добавить листинг статей
 - добавить в файл `layouts/docs/list.html`
 - после {{.Content}}
 
@@ -86,7 +81,7 @@ Test content.
 </ul>
 ```
 
-11. Shortcode callout
+12. Shortcode callout
 - создать файл `layouts/shortcodes/callout.html`
 
 ```
@@ -97,7 +92,7 @@ Test content.
 </div>
 ```
 
-12. Использование callout
+13. Использование callout
 - добавить в `content/docs/guide/shortcodes/callout.md`
 
 ```
@@ -106,4 +101,16 @@ Please visit GitHub to see the latest releases.
 {{< /callout >}}
 ```
 
+## Полезные ссылки
 
+Дока Hugo:
+- Контент https://gohugo.io/content-management/organization/#organization-of-content-source
+- Конфигурация https://gohugo.io/getting-started/configuration/
+- Меню https://gohugo.io/methods/site/menus/
+- Шаблоны https://gohugo.io/templates/introduction/
+- Shortcode https://gohugo.io/content-management/shortcodes/
+
+Темы Hugo:
+- Все темы для документации https://themes.gohugo.io/tags/docs/
+- Hextra https://imfing.github.io/hextra/docs/getting-started/
+- Lotus Docs https://lotusdocs.dev/docs/
