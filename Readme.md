@@ -1,3 +1,6 @@
+## Мастер-класс: Создание статического сайта с помощью Hugo
+https://techwriterdays.ru/ru/talk/118317
+
 ## Инструменты
 - Git https://git-scm.com/downloads
 - Node.js https://nodejs.org/en/download
